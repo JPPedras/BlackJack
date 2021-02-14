@@ -76,6 +76,6 @@ if utils.get_score(player_hand) > utils.get_score(dealer_hand):
 elif utils.get_score(player_hand) < utils.get_score(dealer_hand):
     print('YOU LOST! GAME OVER!')
 else:
-    print("IT'S A DRAW!")
+    print("IT'S A DRAWWWWW!")
 
     
