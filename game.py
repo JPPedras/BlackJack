@@ -70,7 +70,7 @@ if utils.get_score(dealer_hand) > 21:
         print('Dealer Busted! YOU WON!')
         sys.exit()
 
-time.sleep(2)
+time.sleep(1)
 if utils.get_score(player_hand) > utils.get_score(dealer_hand):
     print('YOU WON! GONGRATS')
 elif utils.get_score(player_hand) < utils.get_score(dealer_hand):
