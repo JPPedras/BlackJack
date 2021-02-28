@@ -36,8 +36,8 @@ utils.draw_cards(dealer_hand)
 print('')
 
     
-choice=input("'H' to hit or 'S' to stand: ")
-while choice == 'H':
+choice=input("'h' to hit or 's' to stand: ")
+while choice == 'h':
 
     player_hand.append(cards[rd.randint(0,12)])
     print('Your Hand:')
@@ -49,7 +49,7 @@ while choice == 'H':
         print('You Busted! Game Over!')
         sys.exit()
 
-    choice=input("'H' to hit or 'S' to stand: ")
+    choice=input("'h' to hit or 's' to stand: ")
 
 time.sleep(2)
 dealer_hand[1]=cards[rd.randint(0,12)]
