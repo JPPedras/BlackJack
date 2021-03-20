@@ -3,7 +3,7 @@ pygame.font.init()
 
 WIDTH, HEIGHT = 900,500
 WIN=pygame.display.set_mode((WIDTH,HEIGHT))
-ARIAL_FONT = pygame.font.SysFont('DroidSans', 40)
+ARIAL_FONT = pygame.font.SysFont('gfhgfhf', 40)
 
 
 pygame.display.set_caption('BlackJack')
@@ -149,7 +149,7 @@ def main(balance):
             balance -= bet
             bet=0
         elif get_score(dealer_hand) > 21:
-            result_text='DEALER BUSTED! YOU WON'
+            result_text='DEALER BUSTED! YOU WON!'
             balance += bet
             bet=0  
         elif get_score(player_hand) > get_score(dealer_hand) and done == 1:
